@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reproeste | Gráfica Rápida</title>
+  <meta name="description" content="Gráfica rápida em Itaúna/MG. Adesivos, banners, canecas personalizadas, convites e muito mais. Fale agora pelo WhatsApp." />
+  <meta name="theme-color" content="#1F2D5A" />
+  <meta property="og:title" content="Reproeste | Gráfica Rápida" />
+  <meta property="og:description" content="Peça agora pelo WhatsApp. Siga nossas redes e conheça nossos serviços." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="logo.png" />
+  <link rel="icon" href="logo.png" />
+  <style>
+    :root{ --azul-escuro:#1F2D5A; --azul:#2E5AA7; --azul-claro:#3F7BFF; --branco:#fff; --texto:#0f1531; --radius:18px; --shadow:0 18px 40px rgba(13,20,54,.18); }
+    *{box-sizing:border-box}
+    body{margin:0; font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:var(--texto);
+      background: radial-gradient(1200px 600px at 110% -10%, rgba(63,123,255,.18), transparent 50%),
+                 radial-gradient(900px 500px at -10% 10%, rgba(46,90,167,.22), transparent 50%),
+                 linear-gradient(180deg, #0e1225, #0b1124); background-attachment:fixed;}
+    .wrap{min-height:100vh; display:grid; place-items:center; padding:28px}
+    .card{width:min(1000px,100%); border-radius:22px; overflow:hidden; box-shadow:var(--shadow);
+      background:linear-gradient(180deg, rgba(255,255,255,.94), rgba(255,255,255,.9)); border:1px solid rgba(255,255,255,.6); backdrop-filter:blur(10px) saturate(140%)}
+    header{position:relative; text-align:center; padding:42px 20px 26px; color:var(--branco); background:linear-gradient(135deg, var(--azul-escuro), var(--azul));}
+    header:after{content:""; position:absolute; inset:auto 0 -1px 0; height:18px; background:linear-gradient(180deg, rgba(0,0,0,.18), transparent); opacity:.25}
+    .brand{display:grid; place-items:center; gap:10px}
+    .brand img{max-width:460px; width:100%; height:auto; filter:drop-shadow(0 10px 20px rgba(0,0,0,.35))}
+    .brand h1{margin:6px 0 0; font-size:clamp(22px,3.2vw,36px); letter-spacing:.4px}
+    .subtitle{opacity:.9; font-weight:600}
+    .links{padding:18px; display:grid; gap:14px; grid-template-columns:repeat(auto-fit, minmax(240px,1fr))}
+    .btn{display:flex; align-items:center; justify-content:center; gap:10px; padding:16px 18px; border-radius:16px; color:var(--branco); text-decoration:none; font-weight:800;
+      background:linear-gradient(135deg, var(--azul), var(--azul-claro)); border:1px solid rgba(255,255,255,.35); box-shadow:var(--shadow); transition:transform .12s ease}
+    .btn:hover{transform:translateY(-2px)} .btn.secondary{background:linear-gradient(135deg, #ffffff, #f4f7ff); color:#142152; border:1px solid #dfe6ff} .btn.dark{background:linear-gradient(135deg, #0f1733, #20356b)}
+    .services{padding:10px 20px 26px} .services h2{text-align:center; color:#1F2D5A; margin:8px 0 18px; font-size:clamp(18px,2.3vw,28px)}
+    .grid{display:grid; gap:16px; grid-template-columns:repeat(auto-fit, minmax(260px,1fr))}
+    .tile{background:#fff; border:1px solid #e8ecff; border-radius:18px; padding:16px; box-shadow:0 8px 22px rgba(13,20,54,.06); text-align:center}
+    .photo{width:100%; max-width:320px; aspect-ratio:1/1; object-fit:cover; border-radius:14px; margin:0 auto 12px; box-shadow:0 10px 24px rgba(0,0,0,.12)}
+    .tile h3{margin:6px 0 6px; color:#233569} .tile p{margin:0; color:#47507d}
+    .cta{padding:4px 20px 28px} .cta-inner{background:linear-gradient(135deg, var(--azul-escuro), var(--azul)); color:#fff; border-radius:18px; padding:18px; text-align:center; box-shadow:var(--shadow)}
+    footer{padding:16px 20px 24px; text-align:center; color:#6c78a8; background:linear-gradient(180deg, rgba(255,255,255,.9), rgba(246,249,255,.96)); border-top:1px solid #e6eaff}
+    footer a{color:#2E5AA7; text-decoration:none; font-weight:800}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <main class="card" role="main">
+      <header>
+        <div class="brand">
+          <img src="logo.png" alt="Logo Reproeste" />
+          <h1>REPROESTE</h1>
+          <div class="subtitle">GRÁFICA RÁPIDA • Itaúna/MG</div>
+        </div>
+      </header>
+      <section class="links" aria-label="Ações principais">
+        <a class="btn" href="https://wa.me/5537999066100?text=Ol%C3%A1%20Reproeste!%20Vim%20pelo%20link%20da%20bio%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener">💬 Pedir orçamento no WhatsApp</a>
+        <a class="btn secondary" href="https://instagram.com/reproeste" target="_blank" rel="noopener">📸 Seguir no Instagram</a>
+        <a class="btn dark" href="tel:+5537999066100">📞 Ligar agora</a>
+        <a class="btn secondary" href="https://www.bing.com/maps?ty=18&q=Reproeste+Tecnologia+em+Impress%C3%A3o+Digital&ss=ypid.YN7993x9694013064865121259" target="_blank" rel="noopener">🗺️ Como chegar (Mapa)</a>
+      </section>
+      <section class="services">
+        <h2>O que trabalhamos</h2>
+        <div class="grid">
+          <div class="tile">
+            <img class="photo" src="adesivos-banners.jpg" alt="Adesivos e Banners" loading="lazy" />
+            <h3>Adesivos & Banners</h3>
+            <p>Impressão de alta qualidade para divulgação, decoração e sinalização.</p>
+          </div>
+          <div class="tile">
+            <img class="photo" src="canecas-brindes.jpg" alt="Canecas e Brindes" loading="lazy" />
+            <h3>Canecas & Brindes</h3>
+            <p>Personalizados para presentes, eventos e promoção da sua marca.</p>
+          </div>
+          <div class="tile">
+            <img class="photo" src="convites-displays.jpg" alt="Convites e Displays" loading="lazy" />
+            <h3>Convites & Displays</h3>
+            <p>Convites digitais e impressos, painéis, lonas, mini banners e mais.</p>
+          </div>
+        </div>
+      </section>
+      <section class="cta">
+        <div class="cta-inner">
+          <strong>Precisa para hoje?</strong><br>Atendimento rápido e orçamento pelo WhatsApp.
+          <div style="margin-top:12px">
+            <a class="btn" style="display:inline-flex" href="https://wa.me/5537999066100?text=Ol%C3%A1%20Reproeste!%20Preciso%20com%20urg%C3%AAncia." target="_blank" rel="noopener">🚀 Atendimento imediato</a>
+          </div>
+        </div>
+      </section>
+      <footer>
+        Rua Getúlio Vargas, 1644 — Itaúna/MG • Atendimento: <a href="https://wa.me/5537999066100" target="_blank" rel="noopener">(37) 99906‑6100</a><br>
+        © <span id="ano"></span> Reproeste — Gráfica Rápida. Todos os direitos reservados.
+      </footer>
+    </main>
+  </div>
+  <script>document.getElementById('ano').textContent = new Date().getFullYear();</script>
+</body>
+</html>
